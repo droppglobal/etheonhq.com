@@ -1,0 +1,19 @@
+{{ Form::model($advantage, ['route' => ['advantage.update', $advantage->id], 'method' => 'PUT']) }}
+
+
+<div class="modal-body">
+    @include('ai.writer', ['type' => 'property_advantage'])
+    <div class="form-group col-md-12">
+        {{ Form::label('name', __('Name'), ['class' => 'form-label']) }}
+        {{ Form::text('name', null, ['class' => 'form-control', 'placeholder' => __('Enter Amenity Name')]) }}
+    </div>
+
+    <div class="form-group col-md-12">
+        {{ Form::label('description', __('Description'), ['class' => 'form-label']) }}
+        {{ Form::textarea('description', null, ['class' => 'form-control', 'rows' => 3]) }}
+    </div>
+</div>
+<div class="modal-footer">
+    {{ Form::submit(__('Update'), ['class' => 'btn btn-secondary btn-rounded']) }}
+</div>
+{{ Form::close() }}

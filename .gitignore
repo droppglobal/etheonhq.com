@@ -1,0 +1,6 @@
+/vendor/srmklive
+/.idea
+/.vscode
+
+# website photo copies, made on demand (App\Support\WebsiteImage)
+/storage/upload/_resized

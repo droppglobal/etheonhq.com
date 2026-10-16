@@ -1,0 +1,77 @@
+html,
+body {
+    background-color: #121212 !important;
+    color: #d0d0d0 !important;
+}
+
+.body_content p,
+.body_content span,
+.body_content li,
+.body_content label,
+.body_content td,
+.body_content th,
+.body_content .text,
+.body_content .paragraph,
+.body_content .body-color {
+    color: #c0c0c0 !important;
+}
+
+.header-nav.nav-homepage-style {
+    background-color: #1a1a1a !important;
+}
+
+.ace-responsive-menu>li>a.list-item {
+    color: #e0e0e0 !important;
+}
+
+.ace-responsive-menu>li>a.list-item.active,
+.ace-responsive-menu>li>a.list-item.custom-active-style {
+    color: rgb(var(--bs-secondary-rgb)) !important;
+    border-color: rgb(var(--bs-secondary-rgb)) !important;
+}
+
+#page.mobilie_header_nav .mobile-menu .header {
+    background-color: #1a1a1a !important;
+}
+
+nav#menu {
+    background-color: #1a1a1a !important;
+}
+
+nav#menu ul li a {
+    color: #e0e0e0 !important;
+}
+
+.hero-home11,
+.our-testimonial {
+    background-color: #121212 !important;
+}
+
+.iconbox-style1,
+.feature-style1,
+.listing-style1 {
+    background-color: #1e1e1e !important;
+    border-color: #333 !important;
+}
+
+.cta-banner-about2,
+.home11-cta-3 {
+    background-color: #181818 !important;
+}
+
+.footer-style1 {
+    background-color: #0d0d0d !important;
+}
+
+/* Modal */
+.modal-content {
+    background-color: #1e1e1e !important;
+    color: #e0e0e0 !important;
+}
+
+.modal-content .form-control,
+.modal-content select {
+    background-color: #2a2a2a !important;
+    color: #e0e0e0 !important;
+    border-color: #444 !important;
+}

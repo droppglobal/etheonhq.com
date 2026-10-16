@@ -1,0 +1,49 @@
+.main-title h2,
+.main-title2 .title,
+.home11-hero-content .title,
+.cta-style3 .cta-title,
+.testi-content h4.testi-text {
+    color: rgb(var(--bs-primary-rgb)) !important;
+}
+ 
+.iconbox-style1 .details h4.title,
+.feature-style1 h4.title,
+.list-content h5.list-title a {
+    color: rgb(var(--bs-primary-rgb)) !important;
+}
+ 
+.custom-active-style {
+    color: rgb(var(--bs-secondary-rgb)) !important;
+    border-color: rgb(var(--bs-secondary-rgb)) !important;
+}
+.ace-responsive-menu > li > a.list-item:hover {
+    color: rgb(var(--bs-secondary-rgb)) !important;
+}
+ 
+.ud-btn.btn-thm2,
+.ud-btn.btn-dark,
+.customModal.ud-btn,
+.ud-btn.btn-dark.default-box-shadow1 {
+    background-color: rgb(var(--bs-primary-rgb)) !important;
+    border-color: rgb(var(--bs-primary-rgb)) !important;
+}
+ 
+.icon.text-white.flaticon-working,
+.icon.text-white.flaticon-star-2,
+.icon.text-white.flaticon-file,
+.icon.text-white.flaticon-rocket-1,
+.list-icon.flaticon-badge,
+.testi-content .icon.fas.fa-quote-left {
+    color: rgb(var(--bs-secondary-rgb)) !important;
+}
+ 
+.badge.bg-light-secondary {
+    background-color: rgba(var(--bs-secondary-rgb), 0.15) !important;
+    color: rgb(var(--bs-secondary-rgb)) !important;
+}
+ 
+.social-widget .social-style1 a,
+.social-style1 a:hover {
+    color: rgb(var(--bs-secondary-rgb)) !important;
+}
+ 
