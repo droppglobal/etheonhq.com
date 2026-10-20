@@ -516,19 +516,19 @@
                                                 <li class="list-group-item enable">{{ __('Enabled Logged History') }}
                                                 </li>
                                             @else
-                                                <li class="list-group-item">{{ __('Disable Logged History') }}</li>
+                                                
                                             @endif
                                             @if ($subscription->enabled_openai)
                                                 <li class="list-group-item enable">
                                                     {{ __('Enabled Open Ai Support') }}</li>
                                             @else
-                                                <li class="list-group-item">{{ __('Disable Open Ai Support') }}</li>
+                                                
                                             @endif
                                             @if ($subscription->enabled_n8n)
                                                 <li class="list-group-item enable">
                                                     {{ __('Enabled N8n') }}</li>
                                             @else
-                                                <li class="list-group-item">{{ __('Disable N8n') }}</li>
+                                                
                                             @endif
                                             @if ($subscription->enabled_custom_domain)
                                                 <li class="list-group-item enable">{{ __('Custom website domain') }}</li>
@@ -538,8 +538,7 @@
                                                     {{ __('Enabled Coupon Applicable') }}
                                                 </li>
                                             @else
-                                                <li class="list-group-item">{{ __('Disable Coupon Applicable') }}
-                                                </li>
+                                                
                                             @endif
                                         </ul>
                                         <a class="btn btn-outline-primary bg-light text-primary mt-4"
@@ -1075,17 +1074,7 @@
                             @endif
                         </p>
                     </div>
-                    <div class="col-auto my-1">
-                        <ul class="list-inline footer-sos-link mb-0">
-                            <li class="list-inline-item wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="#" class="link-primary">
-                                    <svg class="pc-icon">
-                                        <use xlink:href="#custom-facebook"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
         </div>

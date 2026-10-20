@@ -550,19 +550,19 @@
 
                                                 </li>
                                             <?php else: ?>
-                                                <li class="list-group-item"><?php echo e(__('Disable Logged History')); ?></li>
+                                                
                                             <?php endif; ?>
                                             <?php if($subscription->enabled_openai): ?>
                                                 <li class="list-group-item enable">
                                                     <?php echo e(__('Enabled Open Ai Support')); ?></li>
                                             <?php else: ?>
-                                                <li class="list-group-item"><?php echo e(__('Disable Open Ai Support')); ?></li>
+                                                
                                             <?php endif; ?>
                                             <?php if($subscription->enabled_n8n): ?>
                                                 <li class="list-group-item enable">
                                                     <?php echo e(__('Enabled N8n')); ?></li>
                                             <?php else: ?>
-                                                <li class="list-group-item"><?php echo e(__('Disable N8n')); ?></li>
+                                                
                                             <?php endif; ?>
                                             <?php if($subscription->enabled_custom_domain): ?>
                                                 <li class="list-group-item enable"><?php echo e(__('Custom website domain')); ?></li>
@@ -573,9 +573,7 @@
 
                                                 </li>
                                             <?php else: ?>
-                                                <li class="list-group-item"><?php echo e(__('Disable Coupon Applicable')); ?>
-
-                                                </li>
+                                                
                                             <?php endif; ?>
                                         </ul>
                                         <a class="btn btn-outline-primary bg-light text-primary mt-4"
@@ -1141,17 +1139,7 @@
                             <?php endif; ?>
                         </p>
                     </div>
-                    <div class="col-auto my-1">
-                        <ul class="list-inline footer-sos-link mb-0">
-                            <li class="list-inline-item wow fadeInUp" data-wow-delay="0.4s">
-                                <a href="#" class="link-primary">
-                                    <svg class="pc-icon">
-                                        <use xlink:href="#custom-facebook"></use>
-                                    </svg>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
         </div>
