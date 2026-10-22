@@ -508,6 +508,10 @@
                                                 {{ Form::text('company_email', $settings['company_email'], ['class' => 'form-control', 'placeholder' => __('Enter company email')]) }}
                                             </div>
                                             <div class="form-group col-md-6">
+                                                {{ Form::label('support_email', __('Contact & Support Email'), ['class' => 'form-label']) }}
+                                                {{ Form::text('support_email', $settings['support_email'], ['class' => 'form-control', 'placeholder' => __('Email shown on the Contact us and Support pages')]) }}
+                                            </div>
+                                            <div class="form-group col-md-6">
                                                 {{ Form::label('company_phone', __('Phone Number'), ['class' => 'form-label']) }}
                                                 {{ Form::text('company_phone', $settings['company_phone'], ['class' => 'form-control', 'placeholder' => __('Enter company phone')]) }}
                                             </div>

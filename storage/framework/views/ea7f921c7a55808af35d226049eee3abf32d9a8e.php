@@ -552,6 +552,12 @@
 
                                             </div>
                                             <div class="form-group col-md-6">
+                                                <?php echo e(Form::label('support_email', __('Contact & Support Email'), ['class' => 'form-label'])); ?>
+
+                                                <?php echo e(Form::text('support_email', $settings['support_email'], ['class' => 'form-control', 'placeholder' => __('Email shown on the Contact us and Support pages')])); ?>
+
+                                            </div>
+                                            <div class="form-group col-md-6">
                                                 <?php echo e(Form::label('company_phone', __('Phone Number'), ['class' => 'form-label'])); ?>
 
                                                 <?php echo e(Form::text('company_phone', $settings['company_phone'], ['class' => 'form-control', 'placeholder' => __('Enter company phone')])); ?>

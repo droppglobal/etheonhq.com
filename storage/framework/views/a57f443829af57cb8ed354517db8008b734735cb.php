@@ -1016,17 +1016,16 @@
                                                 <?php $__currentLoopData = $menus; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $menu): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                     <?php if(in_array($menu->id, $active_footer_menu1)): ?>
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="<?php echo e(route('page', $menu->slug)); ?>"><?php echo e($menu->title); ?></a>
                                                         </li>
                                                     <?php endif; ?>
                                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                             <?php else: ?>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Blog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Documentation')); ?></a>
-                                                </li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('ChangeLog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Support')); ?></a></li>
+                                                <li><a href="<?php echo e(route('home')); ?>"><?php echo e(__('Home')); ?></a></li>
+                                                <li><a href="<?php echo e(route('home')); ?>#features"><?php echo e(__('Features')); ?></a></li>
+                                                <li><a href="<?php echo e(route('home')); ?>#pricing"><?php echo e(__('Pricing')); ?></a></li>
+                                                <li><a href="<?php echo e(route('home')); ?>#faqs"><?php echo e(__('FAQs')); ?></a></li>
                                             <?php endif; ?>
                                         </ul>
                                     </div>
@@ -1045,17 +1044,13 @@
                                                 <?php $__currentLoopData = $menus; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $menu): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                     <?php if(in_array($menu->id, $active_footer_menu2)): ?>
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="<?php echo e(route('page', $menu->slug)); ?>"><?php echo e($menu->title); ?></a>
                                                         </li>
                                                     <?php endif; ?>
                                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                             <?php else: ?>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Blog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Documentation')); ?></a>
-                                                </li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('ChangeLog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Support')); ?></a></li>
+                                                <li><a href="<?php echo e(route('info.support')); ?>"><?php echo e(__('Support and Documentation')); ?></a></li>
                                             <?php endif; ?>
                                         </ul>
                                     </div>
@@ -1074,17 +1069,14 @@
                                                 <?php $__currentLoopData = $menus; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $menu): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                     <?php if(in_array($menu->id, $active_footer_menu3)): ?>
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="<?php echo e(route('page', $menu->slug)); ?>"><?php echo e($menu->title); ?></a>
                                                         </li>
                                                     <?php endif; ?>
                                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                             <?php else: ?>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Blog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Documentation')); ?></a>
-                                                </li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('ChangeLog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Support')); ?></a></li>
+                                                <li><a href="<?php echo e(route('info.about')); ?>"><?php echo e(__('About us')); ?></a></li>
+                                                <li><a href="<?php echo e(route('info.contact')); ?>"><?php echo e(__('Contact us')); ?></a></li>
                                             <?php endif; ?>
                                         </ul>
                                     </div>
@@ -1103,17 +1095,14 @@
                                                 <?php $__currentLoopData = $menus; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $menu): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
                                                     <?php if(in_array($menu->id, $active_footer_menu4)): ?>
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="<?php echo e(route('page', $menu->slug)); ?>"><?php echo e($menu->title); ?></a>
                                                         </li>
                                                     <?php endif; ?>
                                                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                                             <?php else: ?>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Blog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Documentation')); ?></a>
-                                                </li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('ChangeLog')); ?></a></li>
-                                                <li><a href="#" target="_blank"><?php echo e(__('Support')); ?></a></li>
+                                                <li><a href="<?php echo e(route('login')); ?>"><?php echo e(__('Login')); ?></a></li>
+                                                <li><a href="<?php echo e(route('register')); ?>"><?php echo e(__('Get Started')); ?></a></li>
                                             <?php endif; ?>
                                         </ul>
                                     </div>

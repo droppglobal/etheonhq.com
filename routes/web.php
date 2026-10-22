@@ -766,6 +766,10 @@ Route::group(
 );
 
 Route::get('page/{slug}', [PageController::class, 'page'])->name('page');
+// built-in public pages linked from the landing page footer
+Route::get('about-us', [\App\Http\Controllers\InfoPageController::class, 'about'])->name('info.about');
+Route::get('contact-us', [\App\Http\Controllers\InfoPageController::class, 'contact'])->name('info.contact');
+Route::get('support', [\App\Http\Controllers\InfoPageController::class, 'support'])->name('info.support');
 //-------------------------------FAQ-------------------------------------------
 Route::impersonate();
 //-------------------------------v3.2 PWA & WhatsApp (public)-------------------------------------------

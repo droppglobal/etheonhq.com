@@ -600,6 +600,7 @@ class SettingController extends Controller
             [
                 'company_name' => 'required',
                 'company_email' => 'required',
+                'support_email' => 'nullable|email',
                 'company_phone' => 'required',
                 'company_address' => 'required',
                 'timezone' => 'required',

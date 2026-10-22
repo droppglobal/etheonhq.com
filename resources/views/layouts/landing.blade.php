@@ -953,17 +953,16 @@
                                                 @foreach ($menus as $menu)
                                                     @if (in_array($menu->id, $active_footer_menu1))
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="{{ route('page', $menu->slug) }}">{{ $menu->title }}</a>
                                                         </li>
                                                     @endif
                                                 @endforeach
                                             @else
-                                                <li><a href="#" target="_blank">{{ __('Blog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Documentation') }}</a>
-                                                </li>
-                                                <li><a href="#" target="_blank">{{ __('ChangeLog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Support') }}</a></li>
+                                                <li><a href="{{ route('home') }}">{{ __('Home') }}</a></li>
+                                                <li><a href="{{ route('home') }}#features">{{ __('Features') }}</a></li>
+                                                <li><a href="{{ route('home') }}#pricing">{{ __('Pricing') }}</a></li>
+                                                <li><a href="{{ route('home') }}#faqs">{{ __('FAQs') }}</a></li>
                                             @endif
                                         </ul>
                                     </div>
@@ -982,17 +981,13 @@
                                                 @foreach ($menus as $menu)
                                                     @if (in_array($menu->id, $active_footer_menu2))
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="{{ route('page', $menu->slug) }}">{{ $menu->title }}</a>
                                                         </li>
                                                     @endif
                                                 @endforeach
                                             @else
-                                                <li><a href="#" target="_blank">{{ __('Blog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Documentation') }}</a>
-                                                </li>
-                                                <li><a href="#" target="_blank">{{ __('ChangeLog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Support') }}</a></li>
+                                                <li><a href="{{ route('info.support') }}">{{ __('Support and Documentation') }}</a></li>
                                             @endif
                                         </ul>
                                     </div>
@@ -1011,17 +1006,14 @@
                                                 @foreach ($menus as $menu)
                                                     @if (in_array($menu->id, $active_footer_menu3))
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="{{ route('page', $menu->slug) }}">{{ $menu->title }}</a>
                                                         </li>
                                                     @endif
                                                 @endforeach
                                             @else
-                                                <li><a href="#" target="_blank">{{ __('Blog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Documentation') }}</a>
-                                                </li>
-                                                <li><a href="#" target="_blank">{{ __('ChangeLog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Support') }}</a></li>
+                                                <li><a href="{{ route('info.about') }}">{{ __('About us') }}</a></li>
+                                                <li><a href="{{ route('info.contact') }}">{{ __('Contact us') }}</a></li>
                                             @endif
                                         </ul>
                                     </div>
@@ -1040,17 +1032,14 @@
                                                 @foreach ($menus as $menu)
                                                     @if (in_array($menu->id, $active_footer_menu4))
                                                         <li>
-                                                            <a target="_blank"
+                                                            <a
                                                                 href="{{ route('page', $menu->slug) }}">{{ $menu->title }}</a>
                                                         </li>
                                                     @endif
                                                 @endforeach
                                             @else
-                                                <li><a href="#" target="_blank">{{ __('Blog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Documentation') }}</a>
-                                                </li>
-                                                <li><a href="#" target="_blank">{{ __('ChangeLog') }}</a></li>
-                                                <li><a href="#" target="_blank">{{ __('Support') }}</a></li>
+                                                <li><a href="{{ route('login') }}">{{ __('Login') }}</a></li>
+                                                <li><a href="{{ route('register') }}">{{ __('Get Started') }}</a></li>
                                             @endif
                                         </ul>
                                     </div>

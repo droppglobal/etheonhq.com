@@ -69,6 +69,7 @@ if (!function_exists('settingsKeys')) {
             "company_phone" => "",
             "company_address" => "",
             "company_email" => "",
+            "support_email" => "admin@etheonhq.com",
             "company_email_from_name" => "",
             "google_recaptcha" => "off",
             "recaptcha_key" => "",
